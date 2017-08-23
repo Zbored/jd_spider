@@ -18,7 +18,7 @@ class JdSpider(scrapy.Spider):
 
         url1 = "https://club.jd.com/comment/productPageComments.action?&productId="
         productId = "3245078"
-        url2 = "&score=0&sortType=5&page="
+        url2 = "&score=0&sortType=5&page="  #score 3:好评 2：中评 1：差评 0：全部 4：晒图 5：追评
         page = "page"
         url3 = "&pageSize=10"
         for i in range(0, 10):
